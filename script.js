@@ -79,6 +79,19 @@ $('#decimal').click(function()
     s=s+'.';
     $('#screen').html(s);
 })
+$('#percent').click(function()
+{
+    s=s+' / 100';
+    s=eval(s);
+    $('#screen').html(s);
+})
+$('#plus_minus').click(function()
+{
+    s= eval(s);
+    s=s+' * -1';
+    s=eval(s);
+    $('#screen').html(s);
+})
 $('#equalto').click(function()
 {
     console.log(eval(s));
