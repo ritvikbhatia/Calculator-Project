@@ -1,1 +1,70 @@
-console.log(eval("7+6"));
+var s="";
+$('#1').click(function()
+{
+    s=s+'1';
+})
+$('#2').click(function()
+{
+    s=s+'2';
+})
+$('#3').click(function()
+{
+    s=s+'3';
+})
+$('#4').click(function()
+{
+    s=s+'4';
+})
+$('#5').click(function()
+{
+    s=s+'5';
+})
+$('#6').click(function()
+{
+    s=s+'6';
+})
+$('#7').click(function()
+{
+    s=s+'7';
+})
+$('#8').click(function()
+{
+    s=s+'8';
+})
+$('#9').click(function()
+{
+    s=s+'9';
+})
+$('#plus').click(function()
+{
+    s=s+'+';
+})
+$('#minus').click(function()
+{
+    s=s+'-';
+})
+$('#multiply').click(function()
+{
+    s=s+'*';
+})
+$('#divide').click(function()
+{
+    s=s+'/';
+})
+$('#AC').click(function()
+{
+    s='';
+})
+$('#0').click(function()
+{
+    s=s+'0';
+})
+$('#decimal').click(function()
+{
+    s=s+'.';
+})
+$('#equalto').click(function()
+{
+    console.log(eval(s));
+    
+})
