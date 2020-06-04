@@ -2,69 +2,87 @@ var s="";
 $('#1').click(function()
 {
     s=s+'1';
+    $('#screen').html(s);
 })
 $('#2').click(function()
 {
     s=s+'2';
+    $('#screen').html(s);
 })
 $('#3').click(function()
 {
     s=s+'3';
+    $('#screen').html(s);
 })
 $('#4').click(function()
 {
     s=s+'4';
+    $('#screen').html(s);
 })
 $('#5').click(function()
 {
     s=s+'5';
+    $('#screen').html(s);
 })
 $('#6').click(function()
 {
     s=s+'6';
+    $('#screen').html(s);
 })
 $('#7').click(function()
 {
     s=s+'7';
+    $('#screen').html(s);
 })
 $('#8').click(function()
 {
     s=s+'8';
+    $('#screen').html(s);
 })
 $('#9').click(function()
 {
     s=s+'9';
+    $('#screen').html(s);
 })
 $('#plus').click(function()
 {
     s=s+'+';
+    $('#screen').html(s);
 })
 $('#minus').click(function()
 {
     s=s+'-';
+    $('#screen').html(s);
 })
 $('#multiply').click(function()
 {
-    s=s+'*';
+    s=s+' * ';
+    $('#screen').html(s);
 })
 $('#divide').click(function()
 {
-    s=s+'/';
+    s=s+' / ';
+    $('#screen').html(s);
 })
 $('#AC').click(function()
 {
     s='';
+    $('#screen').html(s);
 })
 $('#0').click(function()
 {
     s=s+'0';
+    $('#screen').html(s);
 })
 $('#decimal').click(function()
 {
     s=s+'.';
+    $('#screen').html(s);
 })
 $('#equalto').click(function()
 {
     console.log(eval(s));
+    s=eval(s);
+    $('#screen').html(s);
     
 })
